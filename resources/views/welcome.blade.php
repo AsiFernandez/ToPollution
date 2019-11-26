@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Regna Bootstrap Template</title>
+  <title>Topollution</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -22,13 +22,6 @@
 
   <!-- Main Stylesheet File -->
   <link rel="stylesheet" href="{{asset('assets/css/style.css')}}">
-
-  <!-- =======================================================
-    Theme Name: Regna
-    Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
 </head>
 
 <body>
@@ -49,10 +42,8 @@
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Inicio</a></li>
           <li><a href="#about">Quienes somos</a></li>
-          <li><a href="#services">Nuestro Producto</a></li>
-          <li><a href="#team">  </a></li>
-          
-          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#services">Nuestro Producto</a></li>           
+          <li><a href="#contact">Contacto</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -72,7 +63,7 @@
   <main id="main">
 
     <!--==========================
-      About Us Section
+      Informacion de la empresa
     ============================-->
     <section id="about">
       <div class="container">
@@ -81,7 +72,7 @@
           <div class="col-lg-6 content order-lg-1 order-2">
             <h2 class="title">Un poco mas sobre nosotros</h2>
             <p>
-              Topollution es una pequeña empresa que ha surgido gracias a una idea en común entre dos grupos de personas con la idea de reducir las cantidades de contaminacion en el aire y el sonido que pueda haber en el entorno.
+              Topollution es una pequeña empresa que ha surgido gracias a una idea en común entre dos grupos de personas con la idea de reducir las cantidades de contaminación ambiental y acustica que pueda haber en el entorno.
             </p>
 
             <div class="icon-box wow fadeInUp">
@@ -103,7 +94,6 @@
             </div>
 
           </div>
-
           <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
         </div>
 
@@ -111,7 +101,7 @@
     </section><!-- #about -->
 
     <!--==========================
-      Facts Section
+      Informacion sobre el producto
     ============================-->
     <section id="facts">
       <div class="container wow fadeIn">
@@ -147,7 +137,7 @@
     </section><!-- #facts -->
 
     <!--==========================
-      Services Section
+      Servicios 
     ============================-->
     <section id="services">
       <div class="container wow fadeIn">
@@ -165,7 +155,7 @@
           </div>
           <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fas fa-wind"></i></a></div>
+              <div class="icon"><a href=""><i class="fa fa-wind"></i></a></div>
               <h4 class="title"><a href="">Sensor de aire</a></h4>
               <p class="description">Rellenar con ayuda de DonBosco</p>
             </div>
@@ -272,7 +262,9 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+
+              <form action="{{route('enviarMensaje')}}" method="post" role="form" class="contactForm">
+              @csrf
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
@@ -293,9 +285,7 @@
               </form>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- #contact -->
 
@@ -313,7 +303,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Regna</strong>. All Rights Reserved
+        &copy; Copyright <strong>ToPollution</strong>. All Rights Reserved
       </div>
      
     </div>
