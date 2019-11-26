@@ -193,7 +193,7 @@
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">No eres miembro</h3>
+            <h3 class="cta-title">¿No eres miembro?</h3>
             <p class="cta-text"> Si estas pensando en ayudar a reducir la contaminación tanto acústica como ambiental date prisa y registrate totalmente gratis y comprueba cuales son las ventajas de pasarte a Topollution.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
