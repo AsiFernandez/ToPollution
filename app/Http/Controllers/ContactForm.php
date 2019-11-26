@@ -15,6 +15,6 @@ class ContactForm extends Controller
         $mail->asunto = $request->subject;
         $mail->mensaje = $request->message;
         $mail->save();
-        return view('/');
+        
     }
 }

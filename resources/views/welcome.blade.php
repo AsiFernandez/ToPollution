@@ -33,8 +33,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <!-- <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a> -->
-        <!-- Uncomment below if you prefer to use a text logo -->
+        
         <h1><a href="#hero">Topollution</a></h1>
       </div>
 
@@ -76,7 +75,7 @@
             </p>
 
             <div class="icon-box wow fadeInUp">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <div class="icon"><i class="fas fa-map-pin"></i> </div>
               <h4 class="title"><a href="">Donde lo puedo poner</a></h4>
               <p class="description">Los sensores que ofrecemos los podrás poner en cualquier lugar ya que tiene un tamaño bastante pequeño.</p>
             </div>
@@ -168,34 +167,27 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
               <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
               <h4 class="title"><a href="">Múltiples dispositivos</a></h4>
               <p class="description">Cualquier usuario podra tener a su disposición varios sensores, sin límite</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+          <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-road"></i></a></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
+              <h4 class="title"><a href="">Gran comunidad</a></h4>
+              <p class="description">Una grán comunidad en la que con la ayuda de los demas podremos mejorar nuestro planeta</p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-            <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-        </div>
+         </div>
 
       </div>
     </section><!-- #services -->
 
     <!--==========================
-    Call To Action Section
+    Registrarse
     ============================-->
     <section id="call-to-action">
       <div class="container wow fadeIn">
@@ -213,7 +205,7 @@
     </section><!-- #call-to-action -->
 
     <!--==========================
-      Contact Section
+      formulario de contacto
     ============================-->
     <section id="contact">
       <div class="container wow fadeInUp">
